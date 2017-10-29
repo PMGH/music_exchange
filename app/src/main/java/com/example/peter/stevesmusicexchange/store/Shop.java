@@ -57,30 +57,6 @@ public class Shop {
         return stock.size();
     }
 
-//    public int stockCountByType(String instrumentType){
-//        String rootPackage = "com.example.peter.stevesmusicexchange.store.";
-//        int count = 0;
-//
-//        for (Sellable item : stock){
-//            String instrumentClass = item.getClass().getName();
-//
-//            if (item.getClass().getName().contains("accessories")){
-//                if (instrumentClass.equals(rootPackage + "accessories." + instrumentType)){
-//                    count++;
-//                }
-//            }
-//
-//            if (item.getClass().getName().contains("instruments")){
-//                if (instrumentClass.equals(rootPackage + "instruments." + instrumentType)){
-//                    count++;
-//                }
-//            }
-//
-//        }
-//
-//        return count;
-//    }
-
     public int stockCountByType(String instrumentType){
         int count = 0;
 
